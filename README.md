@@ -1,16 +1,8 @@
 # AI-Generated Code Issues: A Taxonomy from Repository Histories, AI Conversations, and Developer Interviews
 
-This repository contains the replication package for the for the study on AI-generated code issues
+This repository contains the replication package for the study on AI-generated code issues.
 
 The package includes the scripts used to mine the analyzed instances and the data files resulting from the manual analysis.
-
-The repository is organized into two main directories:
-
-```
-.
-├── code/
-└── data/
-```
 
 ## Repository Structure
 
@@ -49,15 +41,15 @@ This folder contains the data used and produced during the manual analysis.
   - one sheet for conversation-related instances.
 
 - `is_true_positive_agreement_commits.csv`  
-  CSV file containing the manual classifications assigned by the evaluators to the commit-related instances.  
-  For each instance, the file reports whether the evaluators classified it as:
-  - `true_positive`, meaning that the instance was considered relevant for the study;
-  - `false_positive`, meaning that the instance was not considered relevant for the study.
+  CSV file used to compute the agreement between evaluators for the commit-related instances.  
+  The file contains one row for each manually analyzed instance and two columns, `Evaluator_1` and `Evaluator_2`, reporting the binary decision assigned by each evaluator:
+  - `TRUE`, if the evaluator classified the instance as a true positive, i.e., relevant for the study;
+  - `FALSE`, if the evaluator classified the instance as a false positive, i.e., not relevant for the study.
 
 - `is_true_positive_agreement_conversations.csv`  
-  CSV file containing the manual classifications assigned by the evaluators to the conversation-related instances.  
-  For each instance, the file reports whether the evaluators classified it as:
-  - `true_positive`, meaning that the instance was considered relevant for the study;
-  - `false_positive`, meaning that the instance was not considered relevant for the study.
+  CSV file used to compute the agreement between evaluators for the conversation-related instances.  
+  The file contains one row for each manually analyzed instance and two columns, `Evaluator_1` and `Evaluator_2`, reporting the binary decision assigned by each evaluator:
+  - `TRUE`, if the evaluator classified the instance as a true positive, i.e., relevant for the study;
+  - `FALSE`, if the evaluator classified the instance as a false positive, i.e., not relevant for the study.
 
 The agreement CSV files were used to compute the agreement between evaluators during the manual analysis.
