@@ -18,6 +18,17 @@ The repository is organized into two main folders:
 
 This folder contains the scripts used to collect and extract the data analyzed in the study.
 
+- `app.py` 
+  Streamlit application for interactively browsing the conversations and navigating their rounds.
+
+  To launch the application, run:
+
+  ```bash
+  streamlit run app/app.py
+  ```
+
+  Then enter the path to `conversations.json` in the sidebar and click **Upload JSON**.
+
 - `minimg_commits.py`  
   Script used to mine the commits analyzed in the study.
 
