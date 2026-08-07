@@ -34,6 +34,9 @@ This folder contains the scripts used to collect and extract the data analyzed i
 
 This folder contains the data used and produced during the manual analysis.
 
+- `conversations.json`
+  JSON file containing the conversations analyzed in the study.
+
 - `true_postivie_instances.xlsx`  
   Excel file containing all valid instances identified during the manual analysis.  
   The file includes two sheets:
