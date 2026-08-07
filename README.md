@@ -24,7 +24,7 @@ This folder contains the scripts used to collect and extract the data analyzed i
   To launch the application, run:
 
   ```bash
-  streamlit run app/app.py
+  streamlit run app.py
   ```
 
   Then enter the path to `conversations.json` in the sidebar and click **Upload JSON**.
